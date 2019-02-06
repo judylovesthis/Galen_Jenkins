@@ -1,0 +1,16 @@
+
+@@ set domain plrfintdevqa-tst.rhythmlabs.infor.com/styleguide#details/colors 
+
+
+@@ table myDevices
+    | deviceName | tags      | size     |
+    | Mobile     | mobile    | 414x736  |
+    #| Desktop    | desktop   | 1920x1080 |
+	
+	
+
+@@ parameterized using myDevices
+Home page on ${deviceName}
+	 https://${domain}/ ${size}
+		inject removeHeader.js
+		check iPhone8plus.dump/iPhone8PlusGenerated.gspec --include ${tags}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results>
+    <suite name="Galen Suite">
+                <test name="Login page on mobile device">
+            <class name="Login page on mobile device">
+                <test-method status="FAIL" signature="Login page on mobile device" name="Login page on mobile device" duration-ms="50187" started-at="2019-02-06T20:03:31Z" finished-at="2019-02-06T20:04:21Z" description="">
+                </test-method>
+            </class>
+        </test>
+    </suite>
+</testng-results>
