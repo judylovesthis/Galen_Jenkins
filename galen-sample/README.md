@@ -10,3 +10,8 @@ If you have Galen Framework installed you can just checkout this project and run
 ```
 galen test tests/ --htmlreport reports
 ```
+
+To run with TestNG reporter
+```
+galen test tests/loginPage.test.js --testngreport "testng-report.xml"
+```
